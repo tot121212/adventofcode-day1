@@ -11,3 +11,4 @@ with open('input.txt', 'r') as f:
 list1.sort(), list2.sort()
 difference_between_list_elements = sum([abs(a-b) for a,b in zip(list1, list2)])
 print(difference_between_list_elements)
+
